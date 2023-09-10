@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
-    vendor/samsung/j6lte/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.samsung \
     vendor/samsung/j6lte/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/j6lte/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
     vendor/samsung/j6lte/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
